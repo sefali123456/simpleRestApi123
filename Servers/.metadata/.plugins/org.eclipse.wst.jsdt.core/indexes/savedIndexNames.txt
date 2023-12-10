@@ -1,0 +1,12 @@
+INDEX VERSION 1.4+/home/sefalimojumderg/server_with_java/Servers/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+2378695592.index
+441149657.index
+574305646.index
+2392629473.index
+3514080193.index
+2189948840.index
+57040801.index
+2749015819.index
+2085352121.index
+501352710.index
+2564432699.index

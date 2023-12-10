@@ -1,0 +1,5 @@
+package com.ems.resource;
+
+public class DbResource {
+
+}

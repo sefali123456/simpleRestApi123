@@ -1,0 +1,5 @@
+package com.ems.bean;
+
+public class Employee {
+
+}

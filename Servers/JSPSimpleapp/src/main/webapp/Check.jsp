@@ -1,0 +1,33 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<%!String email,pass; %>
+<%
+	email = request.getParameter("email");
+	pass = request.getParameter("pass");
+	//RequestDispatcher rd1 = request.getRequestDispatcher("Home.jsp");
+	//RequestDispatcher rd2 = request.getRequestDispatcher("login.jsp");
+	
+	if(email.equals("sefali@gmail.com") && pass.equals("sefali@123")){
+		out.println("sucessfully login");
+		//rd1.forward(request, response);
+		%>
+			<jsp:forward page="home.jsp"></jsp:forward>
+		<%
+	}else {
+		out.println("failure try once again");
+		//rd2.include(request, response);
+			%>
+			<jsp:include page="login.jsp"></jsp:include>
+			<%
+	}
+	response.setContentType("text/html");
+%>
+</body>
+</html>
