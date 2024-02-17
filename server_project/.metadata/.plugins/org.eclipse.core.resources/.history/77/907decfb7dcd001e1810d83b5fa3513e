@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h4>Update Batch Details</h4>
+<form action="BatchController" method="post">
+	<input type="hidden" name="operation" value="update">
+	<label>Id</label>
+	<input type="number" name="batchid"/><br/>
+	<label>TypeOfBatch</label>
+	<input type="Text" name="typeofbatch"/><br/>
+	<input type="submit" value="update batch info"/>
+	<input type="reset" value="reset"/>
+</form>
+<br/>
+<a href="home.jsp">Back</a>
+</body>
+</html>

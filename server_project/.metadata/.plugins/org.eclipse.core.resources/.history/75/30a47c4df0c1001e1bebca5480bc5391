@@ -1,0 +1,43 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+ <%@page import ="com.zumba.bean.batch"%>
+ <%@page import ="java.util.List"%>
+ <%@page import ="java.util.Iterator"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h2>Add Participants Details</h2>
+<form action="ParticipantsController" method="post">
+<input type="hidden" name="operation" value="add"><br/>
+<label>Participants Name</label>
+<input type="text" name="pname"><br/>
+<label>Age</label>
+<input type="number" name="age"><br/>
+<label>PhoneNumber</label>
+<input type="number" name="phonenumber"><br/>
+<select name = "batchid">
+<option>--Select Batch--</option>
+<%
+Object obj = session.getAttribute("listOfBatch");
+List<batch> listOfBatch = (List<batch>) obj;
+Iterator<batch> li = listOfBatch.iterator();
+while(li.hasNext()){
+	batch bb = li.next();
+	%>
+	<option value="<%=bb.getBatchid() %>"><%=bb.getBatchid() %>(<%=bb.getTime() %>)</option>
+	<%
+}
+
+%>
+</select><br/>
+<input type="submit" value="Store Participants"/>
+<input type="reset" value="reset"/>
+</form>
+<br/>
+<a href="index.html">Back</a>
+</body>
+</html>
