@@ -13,8 +13,8 @@
 	<input type="hidden" name="operation" value="update">
 	<label>Id</label>
 	<input type="number" name="participantid"/><br/>
-	<label>Phone Number</label>
-	<input type="Text" name="phonenumber"/><br/>
+	<label>Age</label>
+	<input type="number" name="age"/><br/>
 	<input type="submit" value="update participant info"/>
 	<input type="reset" value="reset"/>
 </form>

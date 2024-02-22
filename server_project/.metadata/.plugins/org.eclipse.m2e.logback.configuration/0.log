@@ -698,3 +698,29 @@
 2024-02-17 10:31:16,346 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sefalimojumderg/server_with_java/server_project/Zumba_App/src/main/resources
 2024-02-17 10:31:16,347 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2024-02-17 10:31:16,348 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sefalimojumderg/server_with_java/server_project/Zumba_App/src/test/resources
+2024-02-18 16:12:14,364 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-02-18 17:24:29,904 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-02-18 17:24:29,906 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sefalimojumderg/server_with_java/server_project/Zumba_App/src/main/resources
+2024-02-18 17:24:29,908 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-02-18 17:24:29,908 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sefalimojumderg/server_with_java/server_project/Zumba_App/src/test/resources
+2024-02-18 17:27:43,741 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-02-18 17:27:43,741 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sefalimojumderg/server_with_java/server_project/Zumba_App/src/main/resources
+2024-02-18 17:27:43,742 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-02-18 17:27:43,743 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sefalimojumderg/server_with_java/server_project/Zumba_App/src/test/resources
+2024-02-22 16:20:04,363 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-02-22 16:28:23,987 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-02-22 16:28:23,989 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sefalimojumderg/server_with_java/server_project/Zumba_App/src/main/resources
+2024-02-22 16:28:23,992 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-02-22 16:28:23,992 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sefalimojumderg/server_with_java/server_project/Zumba_App/src/test/resources
+2024-02-22 16:29:17,800 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-02-22 16:29:17,800 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sefalimojumderg/server_with_java/server_project/Zumba_App/src/main/resources
+2024-02-22 16:29:17,802 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-02-22 16:29:17,802 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sefalimojumderg/server_with_java/server_project/Zumba_App/src/test/resources
+2024-02-22 16:31:51,882 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-02-22 16:31:51,883 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sefalimojumderg/server_with_java/server_project/Zumba_App/src/main/resources
+2024-02-22 16:31:51,884 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-02-22 16:31:51,885 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sefalimojumderg/server_with_java/server_project/Zumba_App/src/test/resources
+2024-02-22 16:38:17,263 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-02-22 16:38:17,264 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sefalimojumderg/server_with_java/server_project/Zumba_App/src/main/resources
+2024-02-22 16:38:17,265 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-02-22 16:38:17,266 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sefalimojumderg/server_with_java/server_project/Zumba_App/src/test/resources

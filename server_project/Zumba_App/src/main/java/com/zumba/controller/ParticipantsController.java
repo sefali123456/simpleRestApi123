@@ -60,11 +60,11 @@ public class ParticipantsController extends HttpServlet {
 		}else if(operation.equals("update")) {
 			int id = Integer.parseInt(request.getParameter("participantid"));
 			
-			String phonenumber = request.getParameter("phonenumber");
+			int age = Integer.parseInt(request.getParameter("age"));
 			participants pp = new participants();
 			pp.setParticipantid(id);
 			
-			pp.setPhonenumber(phonenumber);
+			pp.setAge(age);
 			
 			// Then we can pass those value to service layer and base upon service layer result we can move to next view page. 
 			ParticipantsService es = new ParticipantsService();

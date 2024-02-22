@@ -54,7 +54,7 @@ public class BatchController extends HttpServlet {
 		}else if(operation.equals("update")) {
 			int id = Integer.parseInt(request.getParameter("batchid"));
 			
-			String Typeofbatch = request.getParameter("Typeofbatch");
+			String Typeofbatch = request.getParameter("typeofbatch");
 			batch batch = new batch();
 			batch.setBatchid(id);
 			
@@ -70,7 +70,7 @@ public class BatchController extends HttpServlet {
 			
 			
 		}else if(operation.equals("delete")) {
-			int id = Integer.parseInt(request.getParameter("id"));
+			int id = Integer.parseInt(request.getParameter("batchid"));
 			
 			// Then we can pass those value to service layer and base upon service layer result we can move to next view page. 
 			BatchService es = new BatchService();

@@ -26,9 +26,9 @@ public class ParticipantsDao {
 	public int updateParticipantsDetails(participants participant) {
 		try {
 			Connection con = DbResource.getDbConnection();
-			PreparedStatement pstmt = con.prepareStatement("update participants set phonenumber = ? where participantid = ?");
+			PreparedStatement pstmt = con.prepareStatement("update participants set age = ? where participantid = ?");
 			pstmt.setInt(2, participant.getParticipantid());
-			pstmt.setString(1, participant.getPhonenumber());
+			pstmt.setInt(1, participant.getAge());
 			
 			return pstmt.executeUpdate();
 		} catch (Exception e) {
@@ -46,7 +46,7 @@ public int deleteParticipantsDetails(int participantid) {
 		pstmt.setInt(1, participantid);
 		return pstmt.executeUpdate();
 	} catch (Exception e) {
-		System.err.println("Participants update error "+e.toString());
+		System.err.println("Participants delete error "+e.toString());
 		return 0;
 
 	}
